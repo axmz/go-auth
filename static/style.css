@@ -1,0 +1,23 @@
+body {
+    min-height: 100vh;
+}
+
+.github {
+    padding: 1rem;
+    padding-bottom: .5rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.navbar {
+    box-shadow: 0px -4px 8px 1px rgba(0, 0, 0, .2);
+}
+
+.navbar-toggler {
+    color: rgba(0,0,0,.55);
+    border-color: rgba(0,0,0,.1);
+    background-color: #444;
+    padding: .5rem;
+    border-radius: 50%;
+}

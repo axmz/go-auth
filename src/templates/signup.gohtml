@@ -1,0 +1,14 @@
+{{template "header" .}}
+
+<div class="d-flex flex-column justify-content-center align-items-center">
+    <h1 class="h3 my-3 d-block">Sign Up</h1>
+    <form class="d-block" method="post">
+        <input class=" mb-2 form-control" type="email" name="username" placeholder="email">
+        <input class=" mb-2 form-control" type="password" name="password" placeholder="password">
+        <input class=" mb-2 form-control" type="text" name="firstname" placeholder="first name">
+        <input class=" mb-3 form-control" type="text" name="lastname" placeholder="last name">
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+
+{{template "footer"}}

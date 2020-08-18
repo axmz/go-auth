@@ -1,0 +1,18 @@
+{{template "header" .}}
+
+<div class="my-3">
+    {{if .User.First}}
+        {{/* USER NAME {{.User.UserName}}<br> */}}
+        {{/* PASSWORD {{.User.Password}}<br> */}}
+        <h1 class="text-center h3">
+            Hello {{.User.First}}<br>
+        </h1>
+        <br>
+        <h1 class="h3">Go to <a href="/secret">the secret page</a></h1>
+        {{/* LAST {{.User.Last}}<br> */}}
+    {{else}}
+        <h1 class="text-center h3">Hey, you need to sign up!</h1>
+    {{end}}
+</div>
+
+{{template "footer"}}
